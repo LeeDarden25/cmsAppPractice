@@ -1,0 +1,80 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  button {
+    background: #2985ff;
+    color: #fff;
+    border: 0;
+    font: 16px/1.4 'Merriweather', serif;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+  }
+  
+  button:hover,
+  button:focus {
+    opacity: 0.7;
+    outline: none;
+  }
+  .customer-form h2 {
+    margin-bottom: 20px;
+  }
+.formContainer {
+    margin: auto;
+    width: 33%;
+}
+.customer-form {
+    background: #ececec;
+    padding: 40px 40px 5px;
+    margin: auto;
+  }
+  
+  .customer-form .row {
+    margin: 0 0 20px;
+    width: 90%;
+    padding: 10px;
+  }
+  
+  .customer-form label {
+    display: inline-block;
+    margin: auto;
+    width: 25%;
+    padding: 5px;
+  }
+  .customer-form input[type="text"]:focus,
+  .customer-form input[type="email"]:focus, 
+  .customer-form input[type="tel"]:focus {
+    margin:auto;
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    font: 14px/1.4 'Open Sans', sans-serif;
+    padding: 10px 15px;
+  }
+  #name,
+  #email,
+  #phoneNum {
+    margin: auto;
+    width: 80%;
+  }
